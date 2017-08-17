@@ -1,0 +1,43 @@
+@import "costome_colors.scss";
+
+footer{
+  background-color: $footer_bgc;
+  height: 111px;
+}
+
+.copyright{
+  color: #b8b8b8;
+  margin-top: 57px;
+}
+
+.socials__circle{
+  float: left;
+  height: 33px;
+  width: 33px;
+  border-radius: 16.5px;
+  background: #ebebeb;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 47px;
+  margin-right: 18px;
+  a{
+    font-size: 18px;
+    color: #313030;
+   i{
+    -moz-transition: all 0.5s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    &:hover{
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+     }
+   }
+    &:hover{
+      color: $header_hover_menu;
+    }
+  }
+  &:last-child{
+    margin-right: 0;
+  }
+}
